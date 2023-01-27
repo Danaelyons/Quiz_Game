@@ -89,3 +89,43 @@ btn[disabled]:hover {
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5)
 }
 
+/* end Page CSS */
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 2rem;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 blue;
+}
+
+input::placeholder {
+    color: darkorchid;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-Text {
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+}
+
+#saveScoreBtn {
+    border: none;
+}
+
+
+
